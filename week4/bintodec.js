@@ -1,0 +1,14 @@
+"use strict";
+function binaryToDecimal(binary) {
+    let decimal = 0;
+    let power = 0;
+    for (let i = binary.length - 1; i >= 0; i--) {
+        if (binary[i] === '1') {
+            decimal += Math.pow(2, power);
+        }
+        power++;
+    }
+    return decimal;
+}
+let binary = "101101";
+console.log("Decimal =", binaryToDecimal(binary));
