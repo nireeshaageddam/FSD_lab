@@ -1,6 +1,6 @@
 "use strict";
 let age = 20;
-let n = "Nireesha";
+let n = "nireesha";
 let isStudent = true;
 console.log("Age:", age);
 console.log("Name:", n);
