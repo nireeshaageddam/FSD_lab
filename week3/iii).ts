@@ -22,7 +22,7 @@ class Student extends Person {
     }
 }
 
-let s = new Student("Chandini", 20, "Bhimavaram");
+let s = new Student("Nireesha", 20, "Bhimavaram");
 
 console.log(s.name);
 // console.log(s.age);      // Error (Private)
