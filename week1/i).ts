@@ -1,5 +1,5 @@
 let age: number = 20;
-let n: string = "Nireesha";
+let n: string = "nireesha";
 let isStudent: boolean = true;
 
 console.log("Age:", age);
