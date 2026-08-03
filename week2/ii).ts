@@ -11,7 +11,7 @@ function greet(name: string = "Guest"): void {
     console.log(`Welcome ${name}`);
 }
 
-student("Chandini", 20);
+student("Nireesha", 20);
 student("Anitha");
 
 greet("Priya");
